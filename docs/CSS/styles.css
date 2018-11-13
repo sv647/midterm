@@ -15,33 +15,49 @@ body {
     height: 135px;
 }
 #autoMobile {
-    height: 320px;
+    height: 147px;
 }
 
 #sideCard {
     padding: 18px;
 }
 #banner {
-    background-image: url("../images/happy.jpg");
     background-size: cover;
-    height: 367px;
+    height: 553px;
+    line-height: 135px;
     position: relative;
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    background-color: black;
+}
+#learnMore {
+    text: white;
 }
 #main {
     margin-top: 31px;
 }
 
 #footer {
-    height: 90px;
-    line-height: 90px;
+    height: 95px;
+    line-height: 95px;
     background-color: black;
     color: white;
+    text-align: center;
+}
+#footer2 {
+    height: 95px;
+    line-height: 95px;
+    background-color: black;
+    color: white;
+    text-align: center;
+
 }
 
 #banner h1 {
     position: relative;
-    top: -45px;
+    top: -20px;
     left: 30px;
+    color: white;
 }
 .contentMargin {
     margin-left: 31px;
@@ -95,6 +111,9 @@ a:hover {
 .wrapperPaddingRight {
     padding-right: 31px;
 }
+.wrapperPaddingLeft {
+    padding-left: 31px;
+}
 .floatLeft {
     float: left;
 }
@@ -126,7 +145,7 @@ a:hover {
 }
 
 .grFont {
-    line-height: 27px;
+    line-height: 20px;
     font-size: 16px;
 }
 
@@ -137,7 +156,9 @@ a:hover {
 .textRight {
     text-align: right;
 }
-
+.textLeft {
+    text-align: left;
+}
 .alignRight {
     text-align: right;
 }
