@@ -5,7 +5,71 @@ body {
 
 #wrapper {
     width: 960px;
-    /* background-color: blanchedalmond; */
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+#main{
+    background-image: url(".../images/4X4-adventure-automobile-1571783.jpg");
+    height: 555px;
+    width: 960px;
+}
+
+#menu{
+    height: 130px;
+    line-height: 130px;
+    padding-right: 35px;
+}
+
+#about{
+    height: 555px;
+    width: 960px;
+}
+
+#left{
+    height: 555px;
+    width: 480px;
+    opacity: 0.6;
+}
+
+#leftabout{
+    height: 199px;
+    width: 291px;
+}
+
+#text{
+    padding-top: 109px;
+    padding-left: 20px;
+    color: white;
+    font-size: 12px;
+}
+
+#more{
+    padding-left: 330px;
+    padding-right: 10px;
+    font-size: 12px;
+}
+
+#box{
+    height: 300px;
+    padding: 13px;
+}
+
+#picture{
+    height: 200px;
+}
+
+#content{
+    width: 590px;
+}
+
+#left{
+    width: 367px;
+}
+
+#table{
+    margin-left: 201px;
+    margin-right: 201px;
+    width: 190px;
 }
 #top {
     height: 135px;
@@ -18,22 +82,6 @@ body {
     height: 147px;
 }
 
-#sideCard {
-    padding: 18px;
-}
-#banner {
-    background-size: cover;
-    height: 553px;
-    line-height: 135px;
-    position: relative;
-    opacity: 0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
-    background-color: black;
-}
-
-#main {
-    margin-top: 31px;
-}
 
 #footer {
     height: 95px;
@@ -42,21 +90,13 @@ body {
     color: white;
     text-align: center;
 }
-#footer2 {
-    height: 95px;
-    line-height: 95px;
+
+.bBackground{
     background-color: black;
-    color: white;
-    text-align: center;
-
 }
 
-#banner h1 {
-    position: relative;
-    top: -20px;
-    left: 30px;
-    color: white;
-}
+
+
 .contentMargin {
     margin-left: 31px;
     margin-right: 31px;
@@ -102,19 +142,26 @@ a:hover {
     display: inline;
 }
 
-.sqrPadding {
-    padding-left: 31px;
-    padding-right: 31px;
+.padding {
+    padding: 20px;
 }
-.wrapperPaddingRight {
-    padding-right: 31px;
-}
-.wrapperPaddingLeft {
+
+.paddingLeft{
     padding-left: 31px;
 }
+
 .floatLeft {
     float: left;
 }
+
+.floatRight{
+    float: right;
+}
+
+.floatBottom{
+    float: bottom;
+}
+
 
 .clearMargin {
     margin: 0px;
@@ -127,33 +174,7 @@ a:hover {
 .clearFix {
     clear: both;
 }
-.grSmallPadding {
-    padding-left: 19px;
-    padding-right: 19px;
-}
-.grSmall {
-    width: 329px;
-}
-.grBigPadding {
-    padding-left: 24px;
-    padding-right: 24px;
-}
-.grBig {
-    width: 600px;
-}
 
-.grFont {
-    line-height: 20px;
-    font-size: 16px;
-}
-
-.font{
-    font-size: 12px;
-    line-height: 20px;
-}
-.Helvetica {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
 
 .textRight {
     text-align: right;
@@ -167,4 +188,12 @@ a:hover {
 
 .alignCenter {
     text-align: center;
+}
+
+.inLineBlock{
+    display: inline-block;
+}
+
+.copyright{
+    color: white;
 }
